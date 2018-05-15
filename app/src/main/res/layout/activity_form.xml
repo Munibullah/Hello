@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hunain.emergencyapplication.FormActivity">
+
+    <Spinner
+        android:id="@+id/SelectProblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/done"
+        android:layout_alignStart="@+id/done"
+        android:layout_below="@+id/selectProblemText"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:prompt="@string/SelectProblem" />
+
+    <EditText
+        android:id="@+id/problemTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView9"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:onClick="Save"
+        android:layout_centerHorizontal="true"
+       android:layout_margin="16dp"
+        android:background="@drawable/buttonshapes"
+        android:text="@string/done"
+        android:textColor="@color/FontColor" />
+
+    <TextView
+        android:id="@+id/selectProblemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/done"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/done"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+        android:text="@string/select_problem" android:layout_marginStart="16dp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SelectProblem"
+        android:layout_alignStart="@+id/SelectProblem"
+        android:layout_below="@+id/SelectProblem"
+        android:layout_marginTop="16dp"
+        android:text="@string/SelectDepartment" />
+
+    <CheckBox
+        android:id="@+id/Police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="16dp"
+        android:checked="false"
+        android:onClick="selectDepartments"
+        android:text="@string/Police" />
+
+    <CheckBox
+        android:id="@+id/Ambulance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Police"
+        android:layout_alignBottom="@+id/Police"
+        android:layout_toEndOf="@+id/selectProblemText"
+        android:layout_toRightOf="@+id/selectProblemText"
+        android:checked="false"
+        android:onClick="selectDepartments"
+        android:text="@string/Ambulance" />
+
+    <CheckBox
+        android:id="@+id/FireFighter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SelectProblem"
+        android:layout_alignRight="@+id/SelectProblem"
+        android:layout_alignTop="@+id/Ambulance"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:onClick="selectDepartments"
+        android:text="@string/FireFighter"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Police"
+        android:layout_alignStart="@+id/Police"
+        android:layout_below="@+id/Police"
+        android:layout_marginTop="16dp"
+        android:text="TextView" />
+</RelativeLayout>

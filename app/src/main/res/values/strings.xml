@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Emergency Application</string>
+    <string name="description"> fire fighter image </string>
+    <string name="Continue">Continue</string>
+    <string name="welcome">Welcome to Emergency Application </string>
+    <string name="inputMobileNumber">Enter your Mobile Number</string>
+    <string name="inputSignIn">Ener your mobile number,to create account or sign in</string>
+    <string name="welcomeTextView2">Please Continue for Furhter Process</string>
+    <string name="verify">Verify your mobile Number</string>
+    <string name="pinCodeTextView">Enter pin code you have received</string>
+    <string name="send">Send</string>
+    <string name="title_activity_user_data">UserData</string>
+    <string name="userFirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="address">Address</string>
+    <string name="register">Register</string>
+    <string name="backicon">BackIcon</string>
+    <string name="WelcomeBack">Welcome Back</string>
+    <string name="SignInWithYourPassword">Sign in with your password</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_maps">Location</string>
+    <string name="FireFighter">Fire Station</string>
+    <string name="Ambulance">Ambulance</string>
+    <string name="Police">Police</string>
+
+    <string name="Call">Call</string>
+    <string name="done">Done</string>
+    <string name="SelectDepartment">Select Department</string>
+    <string name="SelectProblem">Select Your Problem</string>
+    <string name="select_problem">Select Problem</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="DriverName">Problem</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="driverName">Name</string>
+    <string name="branchName">Branch Name</string>
+    <string name="Department">Department</string>
+    <string name="DriverPhoneNumber">Phone Number</string>
+    <string name="ValidateSuccessfully">Successfully Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_map_directionApi">AIzaSyCUr5_F06mLfbh6Buq4OzNjxH83EN3DUEU</string>
+</resources>
